@@ -1,0 +1,292 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body { 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 16px; 
+	font-weight: 300; 
+	color: black; 
+	margin: 0; 
+    padding: 0;
+}
+/*MAIN START*/
+#page {
+	max-width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.photo {
+    position: relative;
+    top: -50px;
+    height: 500px;
+    z-index: -1; 
+}
+header {
+   
+}
+nav {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+.nav_bar li{
+    display: inline;
+    float: right;
+    padding: 10px 5px;
+}
+.nav_bar li a {
+    color: white;
+    text-decoration: none;
+}
+.nav_bar a:hover {
+    color: #f29144;
+}
+.nav_bar a.active {
+    color: #f29144;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    display: block; 
+}
+.logo {
+    padding-top: 5px;
+    padding-left: 10px;
+    position: absolute;
+    display: block
+}
+.logo a:hover {
+    color: #f29144;
+}
+.logo_mobile {
+    display: none;
+}
+span {
+    font-weight: bold;
+}
+/* MAIN SLUT */
+
+/*MAIN TOP START*/
+.main_top {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+.top_icon{
+    padding: 0 6% 0 6%;
+}
+.top_icon:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*MAIN TOP SLUT*/
+
+/*MAIN MIDDLE START*/
+.main_middle {
+    height: 290px;
+    background-color: rgba(204, 203, 201, 0.60);
+}
+.main_middle img {
+    padding-top: 3%;
+}
+.om {
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-top: 1%;
+    padding-right: 3%;
+    line-height: 1.5;
+}
+h2 {
+    color: #f29144;
+}
+/*MAIN MIDDLE SLUT*/
+
+/*MAIN BOTTOM START*/
+.main_bottom {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+.bottom_icon{
+    padding: 0 4% 0 4%;
+}
+.bottom_icon:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*MAIN BOTTOM SLUT*/
+/*FOOTER START*/
+footer {
+    background-color: rgba(0, 0, 0, 0.64);
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 0.5%;
+}
+/*FOOTER SLUT*/
+
+/*FEST INFO START*/
+.fest_info {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 450px;
+    background-color: rgba(204, 203, 201, 0.60);
+    text-align: center;
+}
+.sted {
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 140px;
+    left: 25%;
+    line-height: 1.5;
+    
+}
+.sted1 {
+    font-weight: bold;
+    color: #f29144;
+}
+/*FEST INFO SLUT*/
+
+/*KV START*/
+.kv {
+    height: 800px;
+    display: inline-block;
+    width: 100%;
+}
+.kv_boks1, .kv_boks3 {
+    width: 90%;
+    padding: 3% 5% 3% 5%;
+    border-bottom: 2px solid #f29144;
+}
+.kv_boks2, .kv_boks4 {
+    width: 90%;
+    padding: 3% 5% 3% 5%;
+    border-bottom: 2px solid #f29144;
+}
+.kv_farve {
+    color: #f29144;
+}
+.kv_boks4 {
+    border-bottom: none;
+    
+}
+/*KV SLUT*/
+
+/*BIDRAG START*/
+.bidrag {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 400px;
+    text-align: center;
+}
+.bidrag_tekst{
+    width: 50%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.a1, .a5, .a10{
+    color: red;
+}
+.a2, .a8, .a7{
+    color: blue;
+}
+.a4, .a9 {
+    color: green;
+}
+.a3 {
+    color: #f2a61b;
+}
+.a6 {
+    color: #ff00ce;
+}
+.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a8, .a9, .a10 {
+    font-size: 30px;
+    padding: 0 1% 0 1%;
+}
+.a1:hover, .a2:hover, .a3:hover, .a4:hover, .a5:hover, .a6:hover, .a7:hover, .a8:hover, .a9:hover, .a10:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*BIDRAG SLUT*/
+
+/*KØREPLAN START*/
+.plan {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 900px;
+}
+.plan_hover:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*KØREPLAN SLUT*/
+
+/*KOMMUNE START*/
+.kommune {
+    margin-top: 3%;
+    margin-bottom: 6%;
+    height: 250px;
+    background: rgba(204, 203, 201, 0.60);
+}
+.kommune_tekst {
+    width: 70%;
+    float: right;
+    padding-top: 60px;
+}
+.kort {
+    margin-top: 6%;
+    padding-left: 1%;
+}
+.link {
+    color: #f29144;
+}
+.link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*KOMMUNE SLUT*/
+
+/* TILMELD START */
+
+.tilmeld {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+input {
+    text-align: left;
+    border: 2px solid #f29144; 
+    border-radius: 6px;
+    padding: 13px 13px 13px 13px; 
+}
+#button {
+    background-color: #f29144;
+    color: white;
+}
+#button:hover {
+    background-color: #ff8900;
+    font-weight: bold;
+    border: 2px solid #ff8900; 
+}
+
+/* TILMELD SLUT */
+
+
+
+
+
+
+
