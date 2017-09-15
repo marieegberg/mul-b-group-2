@@ -3,11 +3,6 @@
 
 // 1. Konstanter (har den værdi som den får én gang, den kan ikke opdateres) til forbindelsesdata TIL localhost
 
-const HOSTNAME = 'localhost'; // server navn
-	const MYSQLUSER = 'marieegeberg_dk'; // super bruger (remote har man særskilte database brugere)
-	const MYSQLPASS = 'Ty7LYgfc'; // bruger password
-	const MYSQLDB = 'marieegeberg_dk'; // database navn 
-
 // 2. Oprette forbindelsen via mysqli objekt $con
 
 $con = new mysqli(HOSTNAME, MYSQLUSER, MYSQLPASS, MYSQLDB);
